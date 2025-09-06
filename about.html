@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            $("#hm").click(function()
+            {
+            window.location.href = "home.html";
+            });
+            
+            $("#sk").click(function(){
+            window.location.href = "skills.html";
+            });
+
+            $("#pr").click(function(){
+                window.open("https://drive.google.com/drive/folders/1o-hGUHmphmrFcLFmsuot_LOSH0Ieb453?usp=share_link","_blank");
+            });
+
+            $("#re").click(function(){
+                window.open("https://drive.google.com/file/d/1pMdPbwh8FMIrOADJaXRbaKRHQiij8oiv/view?usp=sharing","_blank");
+            });
+        });
+
+        
+    </script>
+</head>
+<body style="background-color: #535353;">
+    <div style="position: absolute;top: 10px;left: 10px;">
+        <img src="IMG/Jay.png" alt="">
+    </div>
+    <div style="color: #E6DACC;">
+        <h1 style="font-size: 50px;margin-left: 50px;margin-top: 290px;">Jay Jaiswal </h1>
+        <h3 style="margin-left: 20px;margin-top: 0px;">Graphics Designer || Front-end Developer</h3>
+    </div>
+    
+    <div style="position: absolute;top: 340px;left:20px;color: #E6DACC;font-size: 30px;margin-top: 50px;">
+        <h2>Contact:</h2>
+        <h2> 📞 : 9316308712</h2>
+        <h2> ✉️: jaiswaljay624<br>@gmail.com</h2>
+        <h2> 📍 : Vadodara</h2>
+        
+    </div>
+    <div style="background-color: black;width: 1150px;height: 840px;border-radius: 90px;position: absolute;left: 360px;top: 0px;">
+        <h1 style="color: #515f7d;font-size: 80px;margin-left: 10px;">About me</h1>
+        <p class="p">Hi,<br> I’m Jay Jaiswal ,
+            I’m a Computer Engineering<br>student at SVIT College (GTU) who loves turning<br> ideas into real, usable products. I build web apps,<br> user-friendly interfaces, and smart tools. Alongside coding, I enjoy graphic design, crafting clean visuals <br> for student projects.</p>
+        <input class="button" type="button" value="Home" id="hm">
+        <input class="button" type="button" value="Skills" id="sk">
+        <input class="button" type="button" value="Projects" id="pr">
+        <input class="button" type="button" value="Resume" id="re">
+        
+    </div>
+</body>
+</html>
